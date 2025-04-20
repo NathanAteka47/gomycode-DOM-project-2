@@ -1,0 +1,42 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+/* Centering Container */
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Box whose background changes */
+#color-box {
+  width: 200px;
+  height: 200px;
+  background-color: #3498db;
+  margin: 20px auto;
+  border-radius: 10px;
+  transition: background-color 0.4s ease;
+}
+
+/* Button Styling */
+#change-color-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#change-color-btn:hover {
+  background-color: #27ae60;
+}
